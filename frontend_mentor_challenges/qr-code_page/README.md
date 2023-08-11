@@ -24,7 +24,7 @@ For my first frontend project, I built a webpage with an embedded QR code compon
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [My codes](https://github.com/Patrick-Chukwu/MySuperRepo/tree/main/frontend_mentor_challenges/qr-code_page)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -44,7 +44,7 @@ For my first frontend project, I built a webpage with an embedded QR code compon
 ## Author
 
 - Website - [Patrick Chukwu](https://www.your-site.com)
-- Frontend Mentor - [@patrickchukwu](https://www.frontendmentor.io/profile/patrickchukwu)
+- Frontend Mentor - [@Patrick-Chukwu](https://www.frontendmentor.io/profile/Patrick-Chukwu)
 - Twitter - [@pattyfean](https://www.twitter.com/pattyfean)
 
 
