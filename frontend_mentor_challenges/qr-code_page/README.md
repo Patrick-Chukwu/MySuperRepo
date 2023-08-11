@@ -14,12 +14,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 For my first frontend project, I built a webpage with an embedded QR code component.
 
-### Screenshot
-Screenshots of my outputs:
+### Screenshots of my results
+##### Desktop version
+![Desktop version](./screenshots/fmc1d.png)
 
-![Desktop result](./screenshots/fmc1d.png)
-
-![Mobile result](./screenshots/fmc1m.png)
+##### Mobile version:
+![Mobile version](./screenshots/fmc2m.png)
 
 
 ### Links
