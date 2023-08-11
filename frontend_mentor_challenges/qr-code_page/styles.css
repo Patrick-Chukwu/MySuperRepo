@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+:root {
+    /* colors */
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+}
+
+body {
+    background-color: var(--light-gray);
+    height: 100vh;
+    font-family: Outline;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+    
+}
+
+p {
+    font-size: .95rem;
+    font-weight: 400;
+    color: var(--grayish-blue);
+}
+
+main {
+    display: block;
+    margin: 5rem auto;
+    width: 90%;
+    height: 70%;
+    background-color: var(--white);
+    border-radius: 1rem;
+
+}
+
+.container {
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+
+.text-container {
+    margin: 0 auto;
+    padding:1rem .2rem .2rem .2rem;
+    width: 95%;   
+
+
+}
+
+img {
+    margin: 0 auto;
+    border-radius: 1rem;
+    height: 60%;
+    width: 95%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 480px) {
+   
+
+    main {
+    margin: 10rem auto 5rem auto;
+    width: 320px;
+    height: 450px;
+    }
+    
+    .attribution {
+        font-size: 11px; 
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+}
