@@ -1,0 +1,78 @@
+:root {
+    --main-color: #136C72;
+    --btn-bg-color: #38CFD9;
+    --p-color: #23424A;
+
+    
+}
+
+*, *::before, *::after  {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 ;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+
+    font-size: 3rem;
+    font-weight: 900;
+
+   
+    margin-top: 0;
+  
+
+}
+
+p {
+ 
+    font-size: 21px;
+    font-weight: 400;  
+
+    opacity: 0.8;
+   
+}
+
+button {
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 700;
+    background-color: var(--btn-bg-color);
+    color: #072A2D;
+    text-transform: uppercase;
+    border-radius: 100px;
+    border: none;
+    padding: .5em 3em;
+    /* width: 17.8rem;
+    height: 3.9rem; */
+
+}
+
+button:hover, button:focus {
+    opacity: .75;
+}
+
+.hero {
+    width: 100%;
+    background-color: var(--p-color);
+    padding: 5em 0;
+}
+.container {
+    width: 80%;
+    max-width: 1000px;
+    
+    margin: 0 auto;
+}
+
+.content {
+    width: 70%;
+
+
+}
+
+.content p {
+    margin-bottom: 2em;
+}
