@@ -1,0 +1,42 @@
+.whatgpt {
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+    background-color: #1B78DE;
+    padding: 5em;
+}
+
+.whatgpt h2 {
+    color: #AE67FA, #F49867;
+
+font-family: Manrope;
+font-size: 34px;
+font-style: normal;
+font-weight: 800;
+line-height: 45px; /* 132.353% */
+}
+
+.whatgpt__row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2em;
+}
+
+.whatgpt__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    gap: 2rem;
+}
+
+
+.whatgpt span {
+    display: inline-block;
+    border: #AE67FA;
+    width: 2rem;
+    height: .1rem;
+    background-color: #AE67FA;
+}

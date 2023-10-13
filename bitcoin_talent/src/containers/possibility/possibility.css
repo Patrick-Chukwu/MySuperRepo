@@ -1,0 +1,8 @@
+.possibility {
+    height: 100vh;
+}
+
+.possibility img {
+    max-height: 100%;
+    max-width: 100%;
+}

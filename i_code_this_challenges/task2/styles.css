@@ -1,0 +1,303 @@
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
+  }
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+ ul {
+    list-style: none;
+    
+}
+
+img {
+    max-width: 100%;
+  }
+
+    /* Revert the 'white-space' property for textarea elements on Safari */
+textarea {
+        white-space: revert;
+}
+
+body {
+    background-color: #2a1e3f;
+    color: white;
+    height: 100vh;
+}
+
+button {
+    background-color: #21143b;
+    text-align: center;
+    padding: .5rem 1rem;
+}
+svg {
+    color: #21143b;
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border-radius: 50px;
+
+}
+
+main {
+    background-color: rgb(24 16 40);
+    margin: 0 auto;
+    width: 65%;
+    height: 100%;
+    border: .5px solid rgb(24 16 40);
+  
+}
+
+#centre {
+
+    
+    margin: 15% auto ;
+
+    display: block;
+    width: 55%;
+    height: 50%;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;  */
+    border-radius: 20px;
+    background-color:  #2a1e3f;
+   /* 
+   background-color:  #2a1e3f;
+    
+    height: 80%;
+    margin: 20rem auto;
+    
+   */
+}
+
+.align {
+    /* margin: 1rem; */
+    padding: 1rem;
+    /* margin: 10rem auto;
+    background-color:  #2a1e3f;
+    width: 80%;
+    height: 80%;
+    padding: 2rem;
+    border-radius: 20px; */
+}
+.nav {
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+} 
+
+.nav nav {
+  
+    display: block;
+    
+    height: 1.5rem;
+  
+} 
+
+.nav nav ul {
+    
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    gap: .5rem;
+
+} 
+
+.nav nav ul svg {
+    background-color: white;
+    height: 1rem;
+    width: 1rem;
+
+}
+
+.h2 {
+    padding-top: .5rem;
+    padding-bottom: 1.5rem;
+    width: 50%;
+    font-size: 1.8rem;
+ 
+}
+
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 100%; 
+    /* padding: 1rem 5rem 1rem 1rem; */
+   
+}
+
+.wrapper > input {
+    background-color: rgb(24 16 40);
+    padding: 1rem 2rem;
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.wrapper0 {
+    border: 1px solid blue;
+    width: 50%;
+    height: 80%;
+    position: absolute;
+}
+
+.innerwrapper { 
+   
+    display: flex;
+    align-items: center;
+    border: 2px solid green;
+    gap: 1rem;
+    /* position: absolute; */
+    /* width: 100%;
+    height: 80%; */
+    /* 
+    justify-content: flex-start;
+
+    
+    
+    height: 100%;
+    top: 10%; */
+    
+    /* position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: flex;
+    width: 0px;
+    height: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;*/
+ 
+}
+
+
+
+.wrapper1  {
+    /* position: relative; */
+    border: 1px solid yellow;
+   
+    width: 20rem;
+    font-size: .5rem;
+
+   
+}
+
+.wrapper1 input {
+    width: 100%;
+
+
+    background-color: rgb(105, 85, 170);
+   padding: .5rem .5rem;
+    border-radius: 50px;
+
+}
+
+.wrapper1  .emma {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    top: 10%; 
+    padding: .5rem 1rem;
+    gap: .5rem;
+    /* flex-wrap: nowrap;
+  
+    height: 80%;
+  
+  
+    left: 5px; */
+}
+   /*  position: absolute; */
+    /* margin: 0 auto; */
+   /*  height: 80%;
+    width: fit-content;
+ 
+    
+    /* justify-content: center;
+/*    
+    padding: 1rem 2rem; */
+    
+   /*  border: 2px solid green;
+    height: 60%; */
+   /*  column-gap: .5rem;
+    align-items: center;
+    top: 5%;
+    right: 5px;
+    
+  
+}
+*/
+
+.wrapper1  .emma img {
+
+/* margin-left: .25rem; */
+height: 80%; 
+width: 1.5rem;  
+border-radius: 50px;
+}
+
+
+.wrapper2  {
+    position: relative;
+    border: 1px solid white;
+    width: 20rem;
+    font-size: .5rem;
+   
+
+    
+}
+
+.wrapper2 input {
+    width: 100%;
+   background-color: blue;
+   padding: .5rem .5rem;
+    border-radius: 50px;
+   
+}
+
+
+.wrapper2  .Jim {
+    padding: .5rem .5rem;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: nowrap;
+    /* 
+    width: fit-content;
+    height: 80%;*/
+    top: 10%; 
+    /* right: 5px; */
+
+}
+
+.wrapper2  .Jim img {
+
+    height: 80%; 
+    width: 1.5rem;  
+   border-radius: 50px;
+}
+
+/*.notify {
+    display: flex;
+}
+
+.light {
+    color: cadetblue;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
