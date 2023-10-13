@@ -27,6 +27,7 @@
     - Width says element should be 1000px wide. That breaks max-width rule, so forces element down to 600px.
 Parent is 320px wide
 Width says element should be 600px wide. That breaks the max-width rule which says element can only be at most 320px wide, so 320px it is!
+<<<<<<< HEAD
 Width says element should be 320px wide. That doesn’t break the max-width rule, so 320px it is!
 
 ### Day 9
@@ -36,3 +37,6 @@ always set
    max-width : 100%;
 }```
 This ensures the image doesn't outgrow its container.
+=======
+Width says element should be 320px wide. That doesn’t break the max-width rule, so 320px it is!
+>>>>>>> fa7827ea6b1a3342050bf0ab112e812acba28a0f

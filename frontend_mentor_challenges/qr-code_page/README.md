@@ -25,7 +25,7 @@ For my first frontend project, I built a webpage with an embedded QR code compon
 ### Links
 
 - Solution URL: [My codes](https://github.com/Patrick-Chukwu/MySuperRepo/tree/main/frontend_mentor_challenges/qr-code_page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site](https://qr-code-tau-vert.vercel.app)
 
 ## My process
    - I built the markup first
