@@ -13,4 +13,7 @@
     --color-blog: #042c54;
     --color-text: #81AFDD;
     --color-subtext: #ff8a71;
+
+    --padding-small: 3rem;
+    --padding-medium: 5rem;
 }

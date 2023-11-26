@@ -16,9 +16,7 @@
 .column {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
-    padding-left: 7rem;
-    gap: 2rem;
+
 }
 
 /* .ai {
@@ -94,9 +92,76 @@ button {
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 37.611px; /* 313.423% */
-
+    line-height: 37.611px;
     width: 581.921px;
     height: 37.611px;
     flex-shrink: 0;
+}
+
+@media screen and (max-width: 1050px) {
+    
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width:550px) {
+
+    .gpt3__header {
+        background: url(../../assets/ai.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding: 1em auto;
+    }
+
+    h1 {
+        font-size: 3em;
+        width: 80%;
+        margin: 0 auto;
+        padding: 10% .2em;
+        /* height: 30vh; */
+        line-height: 1em;
+        border: 1px solid red;
+
+    }
+
+    .paragraph {
+        background-color: #052D56;
+        opacity: .7;
+        width: 80%;
+        margin: 0 auto;
+        padding: 10% .5em;
+        color: #fff;
+        z-index: 0;
+    }
+    .gpt3__header {
+        display: block;
+    }
+
+    .ai {
+        display: none;
+    }
+
+    .sign__up  {
+        display: block;
+        margin: 0 auto;
+      }
+
+    .sign__up input {
+    width: 100%;
+
+
+
+
+    }
+
+    .people {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding: 2em auto;
+    }
 }

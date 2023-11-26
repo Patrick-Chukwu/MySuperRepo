@@ -9,14 +9,14 @@
     height: 60%;
     position: absolute;
     top: 70%;
-    left: 50%;
-    transform: translate(-50%, -70%);
+    left: 80%;
+    transform: translate(-80%, -70%);
     
 }
 
 .s1
 {
-    background: url("./img/couch.jpeg");
+    background: url("./img/couch.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,6 +30,38 @@
     left: 50%;
     transform: translate(-50%, -20%);
     background: linear-gradient(to left, #87c7df, #648896);
-    --webkit-background-clip: text;
-    --webkit-te
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.s2 
+{
+    background: linear-gradient(to left top, #87c7df, #648896);
+
+}
+
+.s2 h1{
+    font-size: 48px;
+    background: linear-gradient(to left, #303f44, #324b55);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description {
+    width: 50%;
+    margin: 20%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.description p {
+    margin: 50px 0px;
+}
+
+.s3 {
+    background-color: black;
+}
+
+s3 h2 {
+    background-color: #fff;
 }

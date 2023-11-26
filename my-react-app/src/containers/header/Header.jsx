@@ -7,14 +7,14 @@ const Header = () => {
     return (
         <div className="gpt3__header row">
             <div className="gpt3__header--left column">
-                <div>
+                <div className="h1__container">
                     <h1>Let’s Build Something amazing with GPT-3 OpenAI</h1>
                 </div>
                 <div className="paragraph">
-                    <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+                    <p>Yet bed any for traveling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything .joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
 
                 </div>
-                <div className="row">
+                <div className="sign__up row">
                     <input type="email" name="email" id="email" placeholder="Your Email Address" required />
                     <button type="button">Get Started</button>
                 </div>

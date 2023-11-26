@@ -1,8 +1,22 @@
 .possibility {
     height: 100vh;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .possibility img {
     max-height: 100%;
     max-width: 100%;
+}
+
+.possibility__content {
+    align-items: flex-start;
+    padding-top: 20rem;
+}
+
+.possibility__content h2 {
+    color : #AE67FA;
+    font-size: 32px;
+    font-weight: bold;
 }

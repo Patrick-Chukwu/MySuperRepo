@@ -20,7 +20,7 @@ line-height: 45px; /* 132.353% */
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 2em;
+    gap: var(--padding-medium);
 }
 
 .whatgpt__column {
@@ -28,15 +28,15 @@ line-height: 45px; /* 132.353% */
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0;
-    gap: 2rem;
+    padding: var(--padding-small);
+    gap: var(--padding-small);
 }
 
 
 .whatgpt span {
     display: inline-block;
     border: #AE67FA;
-    width: 2rem;
-    height: .1rem;
+    width: 3rem;
+    height: .3rem;
     background-color: #AE67FA;
 }

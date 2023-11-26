@@ -1,16 +1,14 @@
 .gpt3__navbar {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 6rem;
+    padding: var(--padding-small) var(--padding-medium);
 
 }
 
 .gpt3__navbar-links {
     flex: 1;
-    display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -23,14 +21,14 @@
     height: 16.02px;
 }
 
-.gpt3__navbar-links_container {
+/* .gpt3__navbar-links_container {
     display: flex;
     flex-direction: row;
 
-}
+} */
 
 .gpt3__navbar-sign {
-    display: flex;
+    /* display: flex; */
     justify-content: flex-end;
     align-items: center;
 }
@@ -77,7 +75,7 @@ cursor: pointer;
 }
 
 .gpt3__navbar-menu_container {
-    display: flex;
+    /* display: flex; */
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
@@ -103,8 +101,8 @@ cursor: pointer;
 }
 
 .scale-up-center {
-    width: 80vw;
-    padding: 1rem 2rem;
+    width: 80%;
+    padding: 1rem 2rem 5rem 1rem;
 
     background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 72, 1) 100%);
 
@@ -134,7 +132,7 @@ cursor: pointer;
 }
 
 .scale-up-center button {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.5rem;
     color: #fff;
     background: #ff4820;
     font-family: var(--font-family);
@@ -157,18 +155,36 @@ cursor: pointer;
     .gpt3__navbar-menu {
         display: flex;
     }
+
+    .gpt3__navbar-links
+    {
+        justify-content: space-between;
+    }
 }
 
 @media screen and (max-width: 700px) {
     .gpt3__navbar {
         padding: 2rem 4rem;
+        justify-content: space-between;
+        gap: 5rem;
     }
-    
+
+    .gpt3__navbar-links
+    {
+        justify-content: space-between;
+    }
+
 }
+
 
 @media screen and (max-width: 550px) {
     .gpt3__navbar {
-        padding: 2rem;
+        padding: 2em;
+    }
+
+    .gpt3__navbar-links {
+        gap: 5em;
+        justify-content: space-between;
     }
 
     .gpt3__navbar-sign {
@@ -177,10 +193,16 @@ cursor: pointer;
 
     .gpt3__navbar-menu_container {
         top: 2px;
+        margin-top: 2em;
+        width: 80%;
+        margin: 2em auto;
+        z-index: 5;
+ 
     }
 
     .gpt3__navbar-menu_container-links-sign {
         display: block;
     }
+ 
     
 }

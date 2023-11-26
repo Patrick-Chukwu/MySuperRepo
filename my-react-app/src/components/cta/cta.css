@@ -1,0 +1,15 @@
+.gpt3__cta {
+    background-color: #AE67FA;
+    padding: 3rem 2em;
+    color: #000;
+    width: 80%;
+    margin: 3em auto;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+}
+
+.cta__button {
+    background-color: #000;
+}

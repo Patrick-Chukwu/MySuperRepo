@@ -1,0 +1,11 @@
+.article__container {
+    padding: 5em;
+    background-color: #031B34;
+}
+
+article__content {
+    font-size: 20rem;    flex-shrink: 1;
+    width: 60%;
+    margin: 0 auto;
+    padding: 5rem;
+}
