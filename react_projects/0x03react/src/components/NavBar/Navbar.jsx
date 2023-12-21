@@ -9,13 +9,18 @@ function Navbar(props){
         display: "flex",
         gap: "2em"
     }
-    return (
-        <ul style={navStyle}>
+    return ( 
+        <div>
+
+                                                      <ul style={navStyle}>
         <li>{props.first}</li>
         <li>{props.second}</li>
         <li>{props.third}</li>
         <li>{props.last}</li>
         </ul>
+        </div> 
+
+
     )
 }
 

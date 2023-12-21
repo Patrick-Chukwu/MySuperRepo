@@ -1,10 +1,12 @@
 .gpt__header {
     width: 90%;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
 .gpt__header--left {
     width: 40%;
+    border: 1px solid red;
 }
 
 .row {
@@ -98,12 +100,18 @@ button {
     flex-shrink: 0;
 }
 
-@media screen and (max-width: 1050px) {
-    
-}
+/* @media screen and (max-width: 1050px) {
+    .gpt3__header {
+        width: 80%;
+        margin: 0 auto;
+    }
+} */
 
 @media screen and (max-width: 700px) {
-
+    .gpt3__header {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width:550px) {

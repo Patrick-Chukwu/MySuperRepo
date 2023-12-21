@@ -1,7 +1,8 @@
 .brands {
     width: 50%;
     margin: 0 auto;
-    display: flex;
+    overflow: auto;
+    /* display: flex; */
     justify-content: space-between;
     gap: 3rem;
 
