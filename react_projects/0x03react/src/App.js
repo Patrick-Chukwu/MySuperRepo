@@ -19,7 +19,7 @@ class App extends Component {
       <div>
       <Navbar first="Home" second="About" third="projects" last="contact"/>
       <Header firstName="Patrick" lastName="Chukwu"/>;
-      <Header firstName="Rotense" lastName="Gab" />;
+      <Header firstName="Rotense" lastName="Gabby" />;
       <Navbar first="Home" second="About" third="projects"/>
       <Button/>
       <Hook/>

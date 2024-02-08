@@ -1,7 +1,7 @@
 const navBar = (
     <nav className="nav">
         <a href="#"><h1>Patrick</h1></a>
-        <a href="#"><img src="./images/react-1-logo-png-transparent.png" /></a>
+        <a href="#"><img src="./images/react-1-logo-png-transparent.png"/></a>
 
         <ul className="nav_items">
             <li>Pricing</li>
