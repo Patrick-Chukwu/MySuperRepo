@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 
 import Navbar from "./components/Navbar";
-import {
-    Routes,
-    Route,
-    Link
-} from "react-router-dom";
+
 import Home from "./pages";
 import About from "./pages/about";
 import Blogs from "./pages/blogs";

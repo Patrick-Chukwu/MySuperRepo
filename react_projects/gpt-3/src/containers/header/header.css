@@ -1,12 +1,12 @@
 .gpt__header {
     width: 90%;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .gpt__header--left {
     width: 40%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .row {
@@ -123,6 +123,12 @@ button {
         background-repeat: no-repeat;
         background-attachment: fixed;
         padding: 1em auto;
+        
+    }
+    .gpt__header--left {
+        border: 1px solid green;
+        justify-content: center;
+        align-items: center;
     }
 
     h1 {
