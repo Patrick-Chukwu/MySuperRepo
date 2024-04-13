@@ -10,23 +10,24 @@ const App = () => {
         <div>
             <Link to="/features">Features</Link>
 
-        <Routes>
-            <Route path="/" element={<Header />}></Route>
-            <Route path="/brand" element={<Brand />}></Route>
-            <Route path="/whatgpt3" element={ <WhatGPT3 />}></Route>
-            <Route path="/possibility" element={<Possibility />}></Route>
-            <Route path="/features" element={<Features />}></Route>
-        </Routes>
+        
         <div className="App">
             <div className="gradient__bg">
-                {/* <Navbar />
-                <Header /> */}
+                 <Navbar />
+        <Routes>
+            <Route path="/" element={<Header />} />
+            <Route path="/brand" element={<Brand />}/>
+            <Route path="/whatgpt3" element={ <WhatGPT3 />}/>
+            <Route path="/possibility" element={<Possibility />}/>
+            <Route path="/features" element={<Features />}/>
+            <Route path="/blog" element={<Blog />}/>
 
+        </Routes>
             </div> 
-            
-           
+            <Brand />
+           <WhatGPT3 />
             <Features />
-            {/* <Possibility /> */}
+            <Possibility />
             <CTA />
             <Blog />
             <Article />

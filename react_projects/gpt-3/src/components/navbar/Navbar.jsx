@@ -4,6 +4,8 @@ import { useState } from "react";
 import {RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.svg'
 
+import { Link } from "react-router-dom";
+
 
 
 
@@ -13,15 +15,18 @@ const Navbar = () => {
     return (
         <div className="gpt3__navbar row">
             <div className="gpt3__navbar-links row">
-                <div className="gpt3__navbar-links_logo">
+                <Link to="/" className="gpt3__navbar-links_logo">
                     <img src={ logo } alt="logo"  />
-                </div>
+                </Link>
                 <div className="gpt3__navbar-links_container row">
-                    <p><a href="#home">Home</a></p>
-                    <p><a href="#wgpt3">What is GPT?</a></p>
-                    <p><a href="#possibility">Open AI</a></p>
-                    <p><a href="#features">Case Studies</a></p>
-                    <p><a href="#blog">Libraries</a></p>
+                 
+                    <Link to="/">Home</Link>
+                    <Link to="/whatgpt3">What is GPT?</Link>
+                    <Link to="/features">Open AI</Link>
+
+                    <Link to="/possibility">Case Studies</Link>
+                    <Link to="/blog">Library</Link>
+
 
                 </div>
                 <div className="gpt3__navbar-sign row">
@@ -36,11 +41,12 @@ const Navbar = () => {
                      {toggleMenu && (
                         <div className="gpt3__navbar-menu_container row scale-up-center">
                             <div className="gpt3__navbar-menu_container-links">
-                            <p><a href="#home">Home</a></p>
-                            <p><a href="#wgpt3">What is GPT?</a></p>
-                            <p><a href="#possibility">Open AI</a></p>
-                             <p><a href="#features">Case Studies</a></p>
-                            <p><a href="#blog">Libraries</a></p>
+                            <Link to="/">Home</Link>
+                    <Link to="/whatgpt3">What is GPT?</Link>
+                    <Link to="/features">Open AI</Link>
+
+                    <Link to="/possibility">Case Studies</Link>
+                    <Link to="/blog">Library</Link>
 
                             </div>
                         <div className="gpt3__navbar-menu_containers-links-sign">
