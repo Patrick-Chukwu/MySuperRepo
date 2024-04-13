@@ -10,10 +10,14 @@ body {
 }
 
 
-a {
+/* Link {
     color: unset;
     text-decoration: none;
-}
+} */
+
+/* Link:visited {
+  color: unset;
+} */
 
 .gradient__bg {
 

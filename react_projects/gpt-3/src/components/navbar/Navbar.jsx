@@ -20,17 +20,17 @@ const Navbar = () => {
                 </Link>
                 <div className="gpt3__navbar-links_container row">
                  
-                    <Link to="/">Home</Link>
-                    <Link to="/whatgpt3">What is GPT?</Link>
-                    <Link to="/features">Open AI</Link>
+                    <Link className="nav_white" to="/">Home</Link>
+                    <Link className="nav_white" to="/whatgpt3">What is GPT?</Link>
+                    <Link className="nav_white" to="/features">Open AI</Link>
 
-                    <Link to="/possibility">Case Studies</Link>
-                    <Link to="/blog">Library</Link>
+                    <Link className="nav_white" to="/possibility">Case Studies</Link>
+                    <Link className="nav_white" to="/blog">Library</Link>
 
 
                 </div>
                 <div className="gpt3__navbar-sign row">
-                    <p>Sign in</p>
+                    <Link className="nav_white" to="/">Sign in</Link>
                     <button type="button">Sign up</button>
                 </div>
                 <div className="gpt3__navbar-menu">
@@ -40,13 +40,13 @@ const Navbar = () => {
                      }
                      {toggleMenu && (
                         <div className="gpt3__navbar-menu_container row scale-up-center">
-                            <div className="gpt3__navbar-menu_container-links">
-                            <Link to="/">Home</Link>
-                    <Link to="/whatgpt3">What is GPT?</Link>
-                    <Link to="/features">Open AI</Link>
+                            <div className="gpt3__navbar-menu_container-links column">
+                            <Link className="nav_white" to="/">Home</Link>
+                    <Link className="nav_white" to="/whatgpt3">What is GPT?</Link>
+                    <Link className="nav_white" to="/features">Open AI</Link>
 
-                    <Link to="/possibility">Case Studies</Link>
-                    <Link to="/blog">Library</Link>
+                    <Link className="nav_white" to="/possibility">Case Studies</Link>
+                    <Link className="nav_white" to="/blog">Library</Link>
 
                             </div>
                         <div className="gpt3__navbar-menu_containers-links-sign">

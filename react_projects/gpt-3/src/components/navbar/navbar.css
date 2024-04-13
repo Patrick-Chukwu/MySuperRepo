@@ -21,11 +21,12 @@
     height: 16.02px;
 }
 
-/* .gpt3__navbar-links_container {
-    display: flex;
-    flex-direction: row;
+.gpt3__navbar-links_container {
+justify-content: space-between;
+gap: 20px;
+align-items: center;
 
-} */
+}
 
 .gpt3__navbar-sign {
     /* display: flex; */
@@ -33,7 +34,7 @@
     align-items: center;
 }
 
-.gpt3__navbar-links_container p, .gpt3__navbar-sign p, .gpt3__navbar-links_container p {
+.nav_white {
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
@@ -42,6 +43,7 @@
     text-transform: capitalize;
     margin: 0 1rem;
     cursor:  pointer;
+    text-decoration: none;
 
 }
 

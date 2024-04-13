@@ -8,7 +8,6 @@ import './App.css';
 const App = () => {
     return (
         <div>
-            <Link to="/features">Features</Link>
 
         
         <div className="App">
