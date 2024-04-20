@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vue Basics</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="app">
         {{message}}
         <!-- v-model is like an html attribute. It binds a function to an input and displays it -->
         <input v-model="message">
+        <!-- v-if -->
+        <div v-if="isVisible" class="box"></div>
+        <!-- v-show is like v-if but it only turn display to none while still keeping content on the DOM -->
+        <div v-show="isVisible" class="box"></div>
 
     </div>
     
@@ -28,7 +33,8 @@
         let app = Vue.createApp({
             data: function() {
                 return {
-                    message: "Hello Everybody!"
+                    message: "Hello Everybody!",
+                    isVisible: true,
                 }
 
             }
