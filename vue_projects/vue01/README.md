@@ -14,3 +14,4 @@
  ## Events
  ### Events directives
  - v-on it can be used to detect any event. Example `v-on:click`
+ - @click: this is the same thing as `v-on:click`. it's an onClick function
