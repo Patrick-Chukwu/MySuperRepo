@@ -15,6 +15,8 @@
         <div v-if="isVisible" class="box red"></div>
         <!-- v-else-if --> 
         <div v-else-if="isVisible2" class="box green"></div>
+        <!-- v-else -->
+        <div v-else class="box blue"></div>
 
         <!-- v-show is like v-if but it only turn display to none while still keeping content on the DOM -->
         <div v-show="isVisible" class="box"></div>
@@ -38,7 +40,7 @@
                 return {
                     message: "Hello Everybody!",
                     isVisible: false,
-                    isVisible2: true,
+                    isVisible2: false,
                 }
 
             }
