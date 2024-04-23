@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+[v-cloak] {
+    display: none;
+}
+
 .box {
     width: 200px;
     height: 200px;

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="app">
+    <div id="app" v-cloak>
         {{message}}
         <!-- v-model is like an html attribute. It binds a function to an input and displays it -->
         <input v-model="message">

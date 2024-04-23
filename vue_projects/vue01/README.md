@@ -9,3 +9,4 @@
  - v-show:  v-show is like v-if but it only turn display to none while still keeping content on the DOM 
  - v-else-if: also like v-if, but the else-if case
  - v-else: the else case of the v-if structure
+ v-cloak it's used to correct unnecessary view. You'd attach it to the parent container in HTML and style it a display of none to prevent the refresh displays
