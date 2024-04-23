@@ -11,15 +11,17 @@
         {{message}}
         <!-- v-model is like an html attribute. It binds a function to an input and displays it -->
         <input v-model="message">
+        <!-- button -->
+        <button v-on:click="isVisible = !isVisible">Toggle box</button>
         <!-- v-if -->
         <div v-if="isVisible" class="box red"></div>
         <!-- v-else-if --> 
-        <div v-else-if="isVisible2" class="box green"></div>
+        <!-- <div v-else-if="isVisible2" class="box green"></div> -->
         <!-- v-else -->
-        <div v-else class="box blue"></div>
+        <!-- <div v-else class="box blue"></div> -->
 
         <!-- v-show is like v-if but it only turn display to none while still keeping content on the DOM -->
-        <div v-show="isVisible" class="box"></div>
+        <!-- <div v-show="isVisible" class="box"></div> -->
 
     </div>
     
@@ -40,7 +42,7 @@
                 return {
                     message: "Hello Everybody!",
                     isVisible: false,
-                    isVisible2: false,
+                    // isVisible2: false,
                 }
 
             }

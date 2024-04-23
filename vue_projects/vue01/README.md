@@ -10,3 +10,7 @@
  - v-else-if: also like v-if, but the else-if case
  - v-else: the else case of the v-if structure
  v-cloak it's used to correct unnecessary view. You'd attach it to the parent container in HTML and style it a display of none to prevent the refresh displays
+
+ ## Events
+ ### Events directives
+ - v-on it can be used to detect any event. Example `v-on:click`
