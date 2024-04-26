@@ -3,9 +3,16 @@
 ## Vue APIs
 Vue offers two API styles: Options API and Composition API
 
+## Attribute binding
+In Vue, mustaches are only used for text interpolation. To bind an attribute to a dynamic value, we use the v-bind directive:
+`<div v-bind:id="dynamicId"></div>
+`
+The part after the colon `(:id)` is the "argument" of the directive. Here, the element's `id` attribute will be synced with the `dynamicId` property from the component's state.
 
-
+Because v-bind is used so frequently, it has a dedicated shorthand syntax:
  ## Directives:
+ A directive is a special attribute that starts with the v- prefix. They are part of Vue's template syntax. Similar to text interpolations, directive values are JavaScript expressions that have access to the component's state
+ ### types of directives
  - v-model is like an html attribute. It binds a variable to an input and displays it.
  It is called data-binding with two ways data directives
 - v-if: it displays its content if the variable is truthy and otherwise does not display it at all in the dom
@@ -22,3 +29,16 @@ Vue offers two API styles: Options API and Composition API
  ### Method
  This is an object of functions
  e.g
+
+ ## States
+ State that can trigger updates when changed is considered `reactive`. We can declare `reactive` state using Vue's `reactive()` API. Objects created from `reactive()` are JavaScript Proxies that work just like normal objects:
+```
+import { reactive } from 'vue'
+
+const counter = reactive({
+  count: 0
+})
+
+console.log(counter.count) // 0
+counter.count++
+```
