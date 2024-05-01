@@ -14,7 +14,7 @@ Because v-bind is used so frequently, it has a dedicated shorthand syntax:
  A directive is a special attribute that starts with the v- prefix. They are part of Vue's template syntax. Similar to text interpolations, directive values are JavaScript expressions that have access to the component's state
  ### types of directives
  - v-model is like an html attribute. It binds a variable to an input and displays it.
- It is called data-binding with two ways data directives
+ It is called data-binding with two ways data directives. v-model automatically syncs the `<input>`'s value with the bound state, so we no longer need to use an event handler for that.
 - v-if: it displays its content if the variable is truthy and otherwise does not display it at all in the dom
  - v-show:  v-show is like v-if but it only turn display to none while still keeping content on the DOM 
  - v-else-if: also like v-if, but the else-if case
