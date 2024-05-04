@@ -7,8 +7,20 @@
 
 body {
     background: var(--color-bg);
+    font-family: var(--font-family);
 }
 
+.row {
+  display: flex;
+
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+
+}
 
 /* Link {
     color: unset;

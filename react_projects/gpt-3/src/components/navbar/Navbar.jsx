@@ -18,7 +18,7 @@ const Navbar = () => {
                 <Link to="/" className="gpt3__navbar-links_logo">
                     <img src={ logo } alt="logo"  />
                 </Link>
-                <div className="gpt3__navbar-links_container row">
+                <div id="gpt3__navbar-links_container" className="gpt3__navbar-links_container row">
                  
                     <Link className="nav_white" to="/">Home</Link>
                     <Link className="nav_white" to="/whatgpt3">What is GPT?</Link>
@@ -29,9 +29,9 @@ const Navbar = () => {
 
 
                 </div>
-                <div className="gpt3__navbar-sign row">
+                <div id="gpt3__navbar-sign" className="gpt3__navbar-sign row">
                     <Link className="nav_white" to="/">Sign in</Link>
-                    <button type="button">Sign up</button>
+                    <button  className="nav_white"  type="button" id="nav_button">Sign up</button>
                 </div>
                 <div className="gpt3__navbar-menu">
                     {toggleMenu

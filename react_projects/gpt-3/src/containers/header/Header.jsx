@@ -5,7 +5,7 @@ import people from '../../assets/people.png';
 
 const Header = () => {
     return (
-        <div className="gpt3__header row">
+        <div id="gpt__header" className="row gpt3__header">
             <div className="gpt3__header--left column">
                 <div className="h1__container">
                     <h1>Let’s Build Something amazing with GPT-3 OpenAI</h1>
